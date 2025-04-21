@@ -58,6 +58,11 @@ h2 {
     font-weight: bold;
     display: inline-block;
 }
+.slick-prev,
+.slick-next {
+    display: none !important;
+}
+
 
 .error {
     color: red
