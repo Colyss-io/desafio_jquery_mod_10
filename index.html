@@ -42,7 +42,7 @@
             </div>
             <div class="form-campo">
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" name="telefone" placeholder="(14)19283-0293" required>
+                <input type="tel" id="telefone" name="telefone" placeholder="(14)19283" required>
             </div>
             <div class="form-campo">
                 <label for="cpf">CPF</label>
@@ -59,13 +59,20 @@
             <button type="submit">Enviar</button>
         </form>
     </div>
-    <script src="./js/jquery.mask.min.js"></script>
-    <script src="./js/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./js/messages_pt_BR.min.js"></script>
-    <script src="./js/main.js"></script>
+    <!-- Carregar JQUERY primeiro (versão moderna) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Depois os plugins -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+<script src="./js/messages_pt_BR.min.js"></script>
+
+<!-- Carrossel Slick depois do jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Seu script final -->
+<script src="./js/main.js"></script>
+
 </body>
 
 </html>
