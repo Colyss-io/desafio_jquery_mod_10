@@ -44,7 +44,7 @@ $('form').validate({
             required: true
         },
     },
-    submitHandler: function (form) {
+    submitHandler: functi on (form) {
         alert("Sua requisição foi enviada para análise, parabéns pela aquisição!");
         form.reset();
         }
